@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact David-Caius</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <h1>Get in Touch</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills Data</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main id="main-content">
+        <section>
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Recruitment & Collaboration Details</legend>
+                    
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="name" required placeholder="Enter your name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="internship">Internship Opportunity</option>
+                        <option value="freelance">Freelance Project</option>
+                        <option value="general">General Inquiry</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+
+                    <label>
+                        <input type="checkbox" name="consent" required style="width: auto;"> I agree to be contacted for professional purposes.
+                    </label>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Location: Timișoara, Romania</p>
+    </footer>
+</body>
+</html>
